@@ -1,0 +1,25 @@
+Git Assignment 1
+
+Install GIT & make sure it is added into PATH.
+Use GIT as local VCS. Steps to follow:
+1.	Create a directory ‘project_dir’ & cd to ‘project_dir’. 
+2.	Initialize git version database. (git init)
+3.	Create a new file index.html.
+4.	Check the git status. You should find index.html as untracked file.
+5.	Stage the index.html file.
+6.	Commit index.html
+         Git add index.html
+7.	Make few changes in index.html & create a new file info.txt file.
+8.	Check git status. You should find index.html & info.txt as untracked files.
+9.	Configure GIT to ignore all txt files.
+10.	Again check the git status. You should find only index.html as untracked file.
+11.	State & commit index.html
+12.	Log all your comments so far.
+13.	Make some changes in index.html.
+14.	Revert the change made in the previous step using git command.
+15.	Again change index.html.
+16.	Stage index.html
+17.	Revert back the last stage.
+18.	Rename ‘add’ command to ‘my-add’.
+19.	Using my_add command Stage index.html again & commit the changes.
+20.	Revert the last commit.
